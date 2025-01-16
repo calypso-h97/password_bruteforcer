@@ -1,0 +1,25 @@
+# Ingoring virtual env
+venv/
+*.pyc
+__pycache__/
+
+# Ignoring logs and temp files
+*.log
+*.tmp
+
+# Ignoring OS files
+.DS_Store
+Thumbs.db
+
+# Ignoring IDE and editors
+.vscode/
+.idea/
+
+# Ignoring confidential files
+*.env
+secrets.json
+
+# Ignoring generated files
+*.zip
+*.tar.gz
+*.sqlite
